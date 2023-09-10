@@ -1,0 +1,91 @@
+.rightPaneBox{
+    flex: 3;
+    height: calc(100vh - 50px);
+    font-family: sans-serif;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+
+}
+
+.rightPaneContainer{
+    padding: 20px 20px 0 0;
+
+}
+
+.adContainer{
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.sponsored{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(73, 71, 71);
+   
+}
+
+.adImage{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 98%;
+   
+}
+
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.birthdayImage{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.birthdayText{
+    margin-top: 20px;
+}
+
+.onlineFriend{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    box-shadow: 5px 5px 13px 5px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 5px 5px 13px 5px rgba(0,0,0,0.14);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.onlineFriendImg{
+    widows: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.onlineFriendImageContainer{
+    display: flex;
+    position: relative;
+}
+
+.onlineStatus{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(66, 201, 66);
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 2px solid white;
+}
+
+
+.onlineFriendName{
+    margin-left: 10px;
+}
